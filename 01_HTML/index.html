@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sitio Espacial</title>
+	</head>
+	<body>
+		<header>
+			<h1>Viaje Espacial: Sistema Solar</h1>
+			<nav>
+				<ul>
+					<li>
+						<a href="#">Mercurio</a>
+					</li>
+					<li>
+						<a href="#">Venus</a>
+					</li>
+					<li>
+						<a href="#">Tierra</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section></section>
+		</main>
+		<aside></aside>
+		<footer>
+			<h2>Contacto</h2>
+			<p>¿Tenes preguntas o comentarios? Contáctenos</p>
+			<form action="#" method="POST">
+				<fieldset>
+					<legend>Información Personal</legend>
+					<label for="inputNombre">Nombre:</label>
+					<input
+						type="text"
+						name="inputNombre"
+						id="inputNombre"
+						placeholder="Ingrese su nombre de pila"
+						title="Aquí debe ingresar su nombre"
+						required
+						autofocus
+					/>
+					<br /><br /><br />
+
+					<label for="inputEmail">Correo Electrónico:</label>
+					<input
+						type="email"
+						name="inputEmail"
+						id="inputEmail"
+						placeholder="Ingrese su email"
+						required
+					/>
+					<br /><br /><br />
+
+					<label for="inputTeléfono">Teléfono:</label>
+					<input
+						type="tel"
+						name="inputTeléfono"
+						id="inputTeléfono"
+						placeholder="+54 9 2614271299"
+						required
+					/>
+					<br /><br /><br />
+
+					<label for="inputFechaDeNacimiento">Fecha de Nacimiento::</label>
+					<input
+						type="date"
+						name="inputFechaDeNacimiento"
+						id="inputFechaDeNacimiento"
+					/>
+				</fieldset>
+				<fieldset>
+					<legend>Seguridad</legend>
+					<label>Contraseña</label>
+					<input
+						type="password"
+						id="inputSeguridad"
+						name="password"
+						maxlength="8"
+						required
+						placeholder="Mínimo de ocho caracteres"
+					/>
+				</fieldset>
+				<fieldset>
+					<legend>Mensaje</legend>
+					<textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+				</fieldset>
+				<fieldset>
+					<legend>Nuevos Elementos HTML</legend>
+					<input type="search" placeholder="Buscar..." list="lenguajes" />
+					<datalist id="lenguajes" name="list">
+						<option>C++</option>
+						<option>JavaScript</option>
+						<option>Python</option>
+					</datalist>
+				</fieldset>
+				<br /><br /><br />
+
+				<input type="submit" />
+			</form>
+		</footer>
+	</body>
+</html>
